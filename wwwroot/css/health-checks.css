@@ -1,0 +1,21 @@
+﻿.healthcheck-ui {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+    .healthcheck-ui .card {
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .healthcheck-ui .status-healthy {
+        color: #28a745;
+    }
+
+    .healthcheck-ui .status-degraded {
+        color: #ffc107;
+    }
+
+    .healthcheck-ui .status-unhealthy {
+        color: #dc3545;
+    }
